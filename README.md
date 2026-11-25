@@ -2,7 +2,7 @@
 
 Aspiring Data Annotator & Python Developer focused on AI training data, data labeling, and annotation workflows.
 
-Building practical Python tools to practice real-world workflows used by CloudFactory, Remotasks, and Scale AI.
+Building practical Python tools to practice real-world workflows used by leading AI training companies like CloudFactory and Scale AI.
 
 ## 🛠️ Skills
 
@@ -13,35 +13,25 @@ Building practical Python tools to practice real-world workflows used by CloudFa
 - **GitHub** - Repos, README documentation, version control
 
 ---
-# 🐶 Dog Annotation Tool
 
-A Python tool to annotate dog images for data labeling / AI training jobs.
+## 🐶 Project 1: Dog Annotation Tool
 
-Built to practice real-world data annotation workflows used by companies like CloudFactory, Remotasks, and Scale AI.
+A CLI tool that collects dog annotations and saves them to CSV.
 
-## ✨ What it does
+**File:** `dog_annotator.py`
 
-- Asks for dog breed, color, and size
-- Validates input (no empty answers)
-- Saves all annotations to `dogs.csv`
-- Can annotate multiple dogs in one session
+**How to run:** `python dog_annotator.py`
 
-## 🚀 How to run
+**What it does:**
+- Asks for Dog ID, Breed, Color, Size
+- Helper function `get_input()` validates every answer - won't accept empty input
+- Validates Size must be small / medium / large
+- Appends to `dogs.csv` - never wipes previous annotations
+- Creates `dogs.csv` with headers only if the file doesn't exist yet
+- Type `quit` to stop
+- ---
 
-```bash
-python dog_annotator.py
-```
-
-## 🧮 Second Project: Calculator
-
-Also includes `calc.py` - a simple calculator that can add, subtract, multiply, and divide.
-
-Run it with:
-```bash
-python calc.py
-```
-
-## 🚗 Third Project: Car Annotation
+## 🚗 Project 2: Car Detection Annotation
 
 - **Project:** Car Detection Annotation
 - **Tool:** MakeSense.ai
@@ -49,13 +39,17 @@ python calc.py
 - **Output:** Exported in YOLO format (.txt files) ready for AI model training
 - **Skills:** Attention to detail, bounding box annotation, quality check
 
-- ## 🐶 Fourth Project: Dog Annotation Helper
+Note: Annotations were created in MakeSense.ai. YOLO export files are not stored in this repo.
+---
 
-- **Project:** Dog Annotation Tool - Python tool to label dog images for AI training
-- **What it does:** Asks for breed, color, size, validates input, saves all annotations to `dogs.csv`
-- **Skills:** Python, CSV handling, Input validation, Data labeling workflow
-- **Real-world use:** Same workflow used by CloudFactory, Remotasks, and Scale AI
-- **Repo:** [View Dog Annotation Tool](https://github.com/zairee-svg/dog-annotation-tool)
+## 🧮 Bonus Project: Python Calculator
 
+A simple CLI calculator to practice Python basics - input handling, validation, and functions.
 
+**File:** `calc.py`
 
+**How to run:** `python calc.py`
+
+**What it does:**
+- Addition, subtraction, multiplication, division
+- Handles invalid input without crashing
