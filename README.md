@@ -28,10 +28,11 @@ python calc.py
 
 ## 🚗 Third Project: Car Annotation
 
-Project: Car Detection Annotation
-Tool: MakeSense.ai
-Task: Drew bounding boxes around every car in 4 street images
-Output: Exported in YOLO format (.txt files) ready for AI model training
-Skills: Attention to detail, bounding box annotation, quality check
+- **Project:** Car Detection Annotation
+- **Tool:** MakeSense.ai
+- **Task:** Drew bounding boxes around every car in 4 street images
+- **Output:** Exported in YOLO format (.txt files) ready for AI model training
+- **Skills:** Attention to detail, bounding box annotation, quality check
+
 
 
