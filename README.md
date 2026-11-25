@@ -39,7 +39,7 @@ A CLI tool that collects dog annotations and saves them to CSV.
 - **Output:** Exported in YOLO format (.txt files) ready for AI model training
 - **Skills:** Attention to detail, bounding box annotation, quality check
 
-Note: Annotations were created in MakeSense.ai. YOLO export files are not stored in this repo.
+Note: Annotations were created in MakeSense.ai. YOLO export files are included in this repo.
 ---
 
 ## 🧮 Bonus Project: Python Calculator
