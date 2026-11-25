@@ -15,3 +15,14 @@ Built to practice real-world data annotation workflows used by companies like Cl
 
 ```bash
 python dog_annotator.py
+
+## 🧮 Second Project: Calculator
+
+Also includes `calc.py` - a simple calculator that can add, subtract, multiply, and divide.
+
+Run it with:
+```bash
+python calc.py
+```
+
+
