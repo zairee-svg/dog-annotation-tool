@@ -1,3 +1,18 @@
+# Zaire's Python Portfolio
+
+Aspiring Data Annotator & Python Developer focused on AI training data, data labeling, and annotation workflows.
+
+Building practical Python tools to practice real-world workflows used by CloudFactory, Remotasks, and Scale AI.
+
+## 🛠️ Skills
+
+- **Python** - CLI tools, input validation, file handling
+- **Data Annotation** - Image labeling, bounding boxes, occlusion, attributes
+- **CSV Handling** - Saving, structuring, and validating labeled data
+- **Attention to Detail** - Consistent labels, clean data, quality checks
+- **GitHub** - Repos, README documentation, version control
+
+---
 # 🐶 Dog Annotation Tool
 
 A Python tool to annotate dog images for data labeling / AI training jobs.
