@@ -15,6 +15,7 @@ Built to practice real-world data annotation workflows used by companies like Cl
 
 ```bash
 python dog_annotator.py
+```
 
 ## 🧮 Second Project: Calculator
 
