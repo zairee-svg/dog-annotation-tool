@@ -34,5 +34,13 @@ python calc.py
 - **Output:** Exported in YOLO format (.txt files) ready for AI model training
 - **Skills:** Attention to detail, bounding box annotation, quality check
 
+- ## 🐶 Fourth Project: Dog Annotation Helper
+
+- **Project:** Dog Annotation Tool - Python tool to label dog images for AI training
+- **What it does:** Asks for breed, color, size, validates input, saves all annotations to `dogs.csv`
+- **Skills:** Python, CSV handling, Input validation, Data labeling workflow
+- **Real-world use:** Same workflow used by CloudFactory, Remotasks, and Scale AI
+- **Repo:** [View Dog Annotation Tool](https://github.com/zairee-svg/dog-annotation-tool)
+
 
 
